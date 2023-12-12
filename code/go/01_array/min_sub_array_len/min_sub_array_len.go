@@ -1,4 +1,4 @@
-package _1_array
+package min_sub_array_len
 
 // 最小子数组长度 https://leetcode.cn/problems/minimum-size-subarray-sum/
 

@@ -1,4 +1,4 @@
-package _1_array
+package sort_square
 
 import (
 	"fmt"

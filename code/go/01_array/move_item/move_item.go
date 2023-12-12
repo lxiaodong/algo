@@ -1,4 +1,4 @@
-package _1_array
+package move_item
 
 import "fmt"
 

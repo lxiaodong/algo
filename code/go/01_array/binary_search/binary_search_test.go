@@ -1,4 +1,4 @@
-package _1_array
+package binary_search
 
 import (
 	"fmt"

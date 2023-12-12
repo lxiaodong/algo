@@ -1,4 +1,4 @@
-package _1_array
+package sort_square
 
 // 有序数组的平方 https://leetcode.cn/problems/squares-of-a-sorted-array/
 

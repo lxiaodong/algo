@@ -1,4 +1,4 @@
-package _1_array
+package binary_search
 
 // 二分查找 leecode https://leetcode.cn/problems/binary-search/
 

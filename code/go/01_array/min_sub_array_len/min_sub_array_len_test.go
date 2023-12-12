@@ -1,4 +1,4 @@
-package _1_array
+package min_sub_array_len
 
 import (
 	"fmt"
