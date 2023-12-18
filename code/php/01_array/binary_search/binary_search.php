@@ -1,6 +1,8 @@
 <?php
 
-// 二分查找 https://leetcode.cn/problems/binary-search/
+/**
+ * 二分查找 https://leetcode.cn/problems/binary-search/
+ */
 class BinarySearch
 {
     /**

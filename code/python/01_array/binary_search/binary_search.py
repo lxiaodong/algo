@@ -2,9 +2,10 @@ import unittest
 from typing import List
 
 
-# 二分查找 https://leetcode.cn/problems/binary-search/
 class BinarySearch:
-    """二分查找"""
+    """
+    二分查找 https://leetcode.cn/problems/binary-search/
+    """
 
     def search1(self, nums: List[int], target: int) -> int:
         """左闭右闭"""
