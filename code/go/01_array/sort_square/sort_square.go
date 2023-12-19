@@ -2,7 +2,7 @@ package sort_square
 
 // 有序数组的平方 https://leetcode.cn/problems/squares-of-a-sorted-array/
 
-// 双指针法
+// SortSquare1 双指针法
 // 时间复杂度：O(1)
 func SortSquare1(nums []int) []int {
 	len := len(nums)

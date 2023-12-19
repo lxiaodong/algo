@@ -1,11 +1,6 @@
 package generate_matrix
 
-// 1  2  3  4
-// 12 13 14	5
-// 11 16 15 6
-// 10 9  8  7
-
-// 螺旋矩阵II https://leetcode.cn/problems/spiral-matrix-ii/
+// GenerateMatrix 螺旋矩阵II https://leetcode.cn/problems/spiral-matrix-ii/
 // 时间复杂度: O(n^2): 模拟遍历二维矩阵的时间
 // 空间复杂度：O(1)
 func GenerateMatrix(n int) [][]int {

@@ -2,7 +2,7 @@ package min_sub_array_len
 
 // 最小子数组长度 https://leetcode.cn/problems/minimum-size-subarray-sum/
 
-// 粗暴获取最小数组长度， 循环套循环，主要记录最终结果
+// MinSubArrayLen1 粗暴获取最小数组长度， 循环套循环，主要记录最终结果
 // 时间复杂度：O(n^2)
 func MinSubArrayLen1(nums []int, s int) int {
 	l := len(nums)
@@ -30,7 +30,7 @@ func MinSubArrayLen1(nums []int, s int) int {
 	return res
 }
 
-// 双指针方法(滑动窗口)
+// MinSubArrayLen2 双指针方法(滑动窗口)
 // 时间复杂度：O(n)
 // 空间复杂度：O(1)
 func MinSubArrayLen2(nums []int, s int) int {

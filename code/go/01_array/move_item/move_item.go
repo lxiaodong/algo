@@ -4,7 +4,7 @@ import "fmt"
 
 // 移除元素 https://leetcode.cn/problems/remove-element/
 
-// 循环遍历
+// MoveItem1 循环遍历
 // 时间复杂度：O(n^2)
 // 空间复杂度：O(1) , 原地互换
 func MoveItem1(nums []int, target int) int {
@@ -26,7 +26,7 @@ func MoveItem1(nums []int, target int) int {
 	return len
 }
 
-// 双指针法
+// MoveItem2 双指针法
 // 时间复杂度：O(n)
 // 空间复杂度：O(1)
 func MoveItem2(nums []int, target int) int {
@@ -47,7 +47,7 @@ func MoveItem2(nums []int, target int) int {
 	return slowIdx
 }
 
-// 相向双指针方法，基于元素顺序可以改变的题目描述改变了元素相对位置，确保了移动最少元素
+// MoveItem3 相向双指针方法，基于元素顺序可以改变的题目描述改变了元素相对位置，确保了移动最少元素
 // 时间复杂度：O(n)
 // 空间复杂度：O(1)
 func MoveItem3(nums []int, target int) int {

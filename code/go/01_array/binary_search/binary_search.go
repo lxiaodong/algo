@@ -2,7 +2,7 @@ package binary_search
 
 // 二分查找 leecode https://leetcode.cn/problems/binary-search/
 
-// 左闭右闭
+// BinarySearch 左闭右闭
 // 时间复杂度:O(n)
 func BinarySearch(nums []int, target int) int {
 	if len(nums) == 0 {
@@ -33,7 +33,7 @@ func BinarySearch(nums []int, target int) int {
 	return -1
 }
 
-// 左闭右开
+// BinarySearch1 左闭右开
 // 时间复杂度:O(n)
 func BinarySearch1(nums []int, target int) int {
 	if len(nums) == 0 {
