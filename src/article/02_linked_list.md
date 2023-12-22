@@ -7,7 +7,7 @@
 ## 2.常见的链表结构
 ### 2.1 单向链表（Singly Linked List）
 每个节点只包含一个指向下一个节点的指针。最后一个节点指向空值（null）表示链表的结束。
-![Alt text](./../static/images/02_linked_list/singly_likned_list.png)
+![Alt text](./../../static/images/02_linked_list/singly_likned_list.png)
 > 时间复杂度：
 > 查找：O(N)
 > 插入：O(1)，注意这里单指插入操作不包含寻址
