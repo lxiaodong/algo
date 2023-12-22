@@ -13,6 +13,6 @@
 - 队列和栈
 
 ## 参考文档
-[代码随想录](https://programmercarl.com/)
-[数据结构与算法之美](https://time.geekbang.org/column/article/41013?cid=100017301&utm_source=pinpaizhuanqu&utm_medium=geektime&utm_campaign=guanwang&utm_term=guanwang&utm_content=0511)
+- [代码随想录](https://programmercarl.com/)
+- [数据结构与算法之美](https://time.geekbang.org/column/article/41013?cid=100017301&utm_source=pinpaizhuanqu&utm_medium=geektime&utm_campaign=guanwang&utm_term=guanwang&utm_content=0511)
 
