@@ -13,6 +13,9 @@ class ListNode
     }
 }
 
+/**
+ * 设计链表 https://leetcode.cn/problems/design-linked-list/
+ */
 class LinkedList
 {
     public ListNode $dummyHead;

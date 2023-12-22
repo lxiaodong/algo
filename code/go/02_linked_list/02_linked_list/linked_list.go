@@ -2,6 +2,8 @@ package linked_list
 
 import "fmt"
 
+// 设计链表 https://leetcode.cn/problems/design-linked-list/
+
 type ListNode struct {
 	Val  int
 	Next *ListNode

@@ -10,7 +10,9 @@ class ListNode:
 
 
 class LinkedList:
-    """linked list"""
+    """
+    设计链表 https://leetcode.cn/problems/design-linked-list/
+    """
 
     def __init__(self) -> None:
         self.head = ListNode(0)
@@ -54,12 +56,12 @@ class LinkedList:
         """
         if index < 0 or index > self.size:
             return
-        
+
         current = self.head
         while index > 0:
             current = current.next
             index -= 1
-        
+
         node = ListNode(val=val, next=current.next)
         current.next = node
         self.size += 1
@@ -68,23 +70,24 @@ class LinkedList:
         """如果索引 index 有效，则删除链表中的第 index 个节点"""
         if index < 0 or index >= self.size:
             return
-        
+
         slow = self.head
         fast = self.head.next
-        
+
         while index > 0:
             slow = slow.next
             fast = fast.next
             index -= 1
-        
+
         slow.next = fast.next
         self.size -= 1
-        
+
     def print(self):
         current = self.head
         while current.next != None:
             print(current.next.val)
             current = current.next
+
 
 class TestLinkedList(unittest.TestCase):
     def test_linked_list(self):
@@ -96,6 +99,7 @@ class TestLinkedList(unittest.TestCase):
         linked_list.delete_at_index(3)
         linked_list.print()
         print(linked_list.get(1))
+
 
 if __name__ == "__main__":
     unittest.main()
