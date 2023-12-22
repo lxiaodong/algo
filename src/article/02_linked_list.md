@@ -16,7 +16,7 @@
 
 ### 2.2 双向链表（Doubly Linked List）
 每个节点包含指向前一个节点和后一个节点的两个指针。双向链表可以从头到尾遍历，也可以从尾到头遍历。
-![Alt text](./../images/02_linked_list/doubly_linked_list.png)
+![Alt text](./../../static/images/02_linked_list/doubly_linked_list.png)
 
 > 时间复杂度：
 > 查找：O(1), 注意可以支持 O(1) 时间复杂度的情况下找到前驱结点。
@@ -30,9 +30,9 @@
 > 循环链表又分单循环和双循环
 
 #### 2.3.1 单循环
-![Alt text](./../images/02_linked_list/singly_circular_linked_list.png)
+![Alt text](./../../static/images/02_linked_list/singly_circular_linked_list.png)
 #### 2.3.2 双循环
-![Alt text](./../images/02_linked_list/double_circular_linked_list.png
+![Alt text](./../../static/images/02_linked_list/double_circular_linked_list.png
 )
 
 
