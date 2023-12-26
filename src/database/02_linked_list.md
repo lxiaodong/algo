@@ -29,3 +29,10 @@
 - [GO](./../code/go/02_linked_list/04_swap_pairs/swap_pairs.go)
 - [PHP](./../code/php/02_linked_list/04_swap_pairs/swap_pairs.php)
 - [Python](./../code/python/02_linked_list/04_swap_pairs/swap_pairs.py)
+
+## [5.删除链表的倒数第N个节点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/)
+
+### 相关代码
+- [GO](./../code/go/02_linked_list/05_remove_nth_from_end/remove_nth_from_end.go)
+- [PHP](./../code/php/02_linked_list/05_remove_nth_from_end/remove_nth_from_end.php)
+- [Python](./../code/python/02_linked_list/05_remove_nth_from_end/remove_nth_from_end.py)
