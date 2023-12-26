@@ -1,4 +1,5 @@
 # 数组相关Leetcode集
+> &#128227; [详细参考【代码随想录】](https://programmercarl.com/%E6%95%B0%E7%BB%84%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80.html)<i class="fa fa-external-link"></i>
 
 ## [1. 二分查找](https://leetcode.cn/problems/binary-search/)
 ### 相关代码

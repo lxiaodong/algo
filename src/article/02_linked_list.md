@@ -1,6 +1,6 @@
-# [linked list 数据结构详细介绍](https://time.geekbang.org/column/article/41013?utm_source=pinpaizhuanqu&utm_medium=geektime&utm_campaign=guanwang&utm_term=guanwang&utm_content=0511)
+# [linked list 数据结构详细介绍](https://time.geekbang.org/column/article/41013?utm_source=pinpaizhuanqu&utm_medium=geektime&utm_campaign=guanwang&utm_term=guanwang&utm_content=0511)<i class="fa fa-external-link"></i>
 
->&#128227; [链表题库->->->](./../database/02_linked_list.md)
+>&#128227; [【链表算法题库】](./../database/02_linked_list.md)
 
 ## 1.链表是什么？
 链表它由节点（Node）的集合组成，每个节点包含数据元素和指向下一个节点的“指针”。链表中的节点可以在内存中离散分布，它们通过指针相互连接，形成一个逻辑上的序列。

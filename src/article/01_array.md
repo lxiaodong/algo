@@ -1,5 +1,5 @@
-# [array 数据结构详细介绍](https://time.geekbang.org/column/article/40961?utm_source=pinpaizhuanqu&utm_medium=geektime&utm_campaign=guanwang&utm_term=guanwang&utm_content=0511)
->&#128227; [数组题库->->->](./../database/01_array.md)
+# [array 数据结构详细介绍](https://time.geekbang.org/column/article/40961?utm_source=pinpaizhuanqu&utm_medium=geektime&utm_campaign=guanwang&utm_term=guanwang&utm_content=0511)<i class="fa fa-external-link"></i>
+>&#128227; [【数组算法题库】](./../database/01_array.md)
 
 ## 1. 数组是什么?：
 数组是一种线性表数据结构，是用一组连续的内存空间来存储一组具有相同数据类型的数据。
