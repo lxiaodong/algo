@@ -37,7 +37,7 @@ func (a *ArrayStack) Pop() any {
 
 // IsEmpty 是否为空
 func (a *ArrayStack) IsEmpty() bool {
-	return len(a.data) == 0 && a.top == -1
+	return a.top == -1
 }
 
 // Flush 清空
