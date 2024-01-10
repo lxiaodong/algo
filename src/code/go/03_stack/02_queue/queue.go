@@ -37,7 +37,7 @@ func (q *Queue) Push(v any) bool {
 
 // Pop 弹出最上边元素
 func (q *Queue) Pop() any {
-	if q.Out.top == -1 && q.In.top == -1 {
+	if q.Empty() {
 		return nil
 	}
 
@@ -52,4 +52,21 @@ func (q *Queue) Pop() any {
 	popV := q.Out.data[q.Out.top]
 	q.Out.top--
 	return popV
+}
+
+// Peek 返回队列首部的元素
+func (q *Queue) Peek() any {
+	val := q.Pop()
+	if val == nil {
+		return nil
+	}
+	q.Out.top++
+	q.Out.data[q.Out.top] = val
+
+	return val
+}
+
+// Empty 验证是否为空
+func (q *Queue) Empty() bool {
+	return q.In.top == -1 && q.Out.top == -1
 }

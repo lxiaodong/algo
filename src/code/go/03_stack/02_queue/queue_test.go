@@ -10,8 +10,9 @@ func TestQueue(t *testing.T) {
 	q.Push(1)
 	q.Push("a")
 	q.Push(3)
+	fmt.Println(q.Peek())
 	fmt.Println(q.Pop())
 	fmt.Println(q.Pop())
 	fmt.Println(q.Pop())
-	fmt.Println(q.Pop())
+	fmt.Println(q.Empty())
 }
