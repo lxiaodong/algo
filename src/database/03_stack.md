@@ -11,3 +11,8 @@
 
 ### 相关代码
 - [GO](./../code/go/03_stack/02_queue/queue.go)
+
+## [3.有效的括号](https://leetcode.cn/problems/valid-parentheses/)
+
+### 相关代码
+- [GO](./../code/go/03_stack/03_valid_parentheses/valid_parentheses.go)
