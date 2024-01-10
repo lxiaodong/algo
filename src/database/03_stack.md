@@ -16,3 +16,8 @@
 
 ### 相关代码
 - [GO](./../code/go/03_stack/03_valid_parentheses/valid_parentheses.go)
+
+## [4.删除字符串中的所有相邻重复项](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/)
+
+### 相关代码
+- [GO](./../code/go/03_stack/04_remove_duplicates/remove_duplicates.go )

@@ -39,7 +39,8 @@ func (s *Stack) Top() any {
 	return s.data[s.top]
 }
 
-func isValid(s string) bool {
+// IsValid1 验证符合是否合法（结合自定义栈）
+func IsValid1(s string) bool {
 	if s == "" {
 		return true
 	}
@@ -62,4 +63,31 @@ func isValid(s string) bool {
 		}
 	}
 	return stack.IsEmpty()
+}
+
+// IsValid2 验证符合是否合法
+func IsValid2(s string) bool {
+	if s == "" {
+		return true
+	}
+
+	hash := map[byte]byte{
+		'}': '{',
+		')': '(',
+		']': '[',
+	}
+
+	var stack []byte
+
+	for i := 0; i < len(s); i++ {
+		if s[i] == '(' || s[i] == '{' || s[i] == '[' {
+			stack = append(stack, s[i])
+		} else if len(stack) != 0 && hash[s[i]] == stack[len(stack)-1] {
+			stack = stack[:len(stack)-1]
+		} else {
+			return false
+		}
+	}
+
+	return len(stack) == 0
 }
