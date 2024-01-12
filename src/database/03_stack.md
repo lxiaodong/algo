@@ -21,3 +21,8 @@
 
 ### 相关代码
 - [GO](./../code/go/03_stack/04_remove_duplicates/remove_duplicates.go )
+
+## [5.逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
+
+### 相关代码
+- [GO](./../code/go/03_stack/05_eval_rpn/eval_rpn.go)
