@@ -11,3 +11,13 @@
 
 ### 相关代码
 - [GO](./../code/go/04_queue/02_stack/stack.go)
+
+## [3.滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/)
+
+### 相关代码
+- [GO](./../code/go/04_queue/03_max_sliding_window/max_sliding_window.go)
+
+## [4.前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/)
+
+### 相关代码
+- [GO](./../code/go/04_queue/04_top_k_frequent/top_k_frequent.go)
